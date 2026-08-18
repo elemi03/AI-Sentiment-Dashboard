@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+pandas
+vaderSentiment
+streamlit
+plotly
+youtube-comment-downloader
+python-dateutil
