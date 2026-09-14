@@ -11,6 +11,23 @@ This project scrapes public discussion from Hacker News and Google News, runs se
 - **Retail** leans most negative/neutral — AI is framed as directly replacing customer-facing jobs
 - **Hacker News (tech insiders) is more optimistic (avg. 0.15) than mainstream news coverage (avg. -0.09)**
 
+## Screenshots
+
+**Overview — headline stats and filters**
+![Dashboard overview](screenshots/01_overview.png)
+
+**Sentiment by industry + overall split**
+![Industry and overall sentiment charts](screenshots/02_industry_charts.png)
+
+**Sentiment over time (2010–2026)**
+![Sentiment over time](screenshots/03_sentiment_over_time.png)
+
+**Hacker News vs. mainstream news coverage**
+![HN vs News comparison](screenshots/04_hn_vs_news.png)
+
+**Browsable table of individual posts**
+![Browse individual posts table](screenshots/05_browse_posts.png)
+
 ## Data Sources
 - **Hacker News** — via the free Algolia HN Search API, no auth required. Searched 5 phrases around AI job displacement, pulling both stories and comments.
 - **Google News RSS** — free, no-auth news search, queried separately per industry so articles arrive pre-tagged by topic.
